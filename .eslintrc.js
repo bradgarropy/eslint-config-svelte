@@ -5,7 +5,7 @@ module.exports = {
         jest: true,
         node: true,
     },
-    extends: ["@bradgarropy/eslint-config", "./rules/svelte.js"],
+    extends: ["./rules/svelte.js"],
     overrides: [
         {
             files: ["*.svelte"],

@@ -1,6 +1,6 @@
 {
     "name": "@bradgarropy/eslint-config-svelte",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "💎 eslint configuration",
     "keywords": [
         "eslint",
@@ -27,18 +27,14 @@
         "lint:fix": "eslint . --fix"
     },
     "peerDependencies": {
-        "@bradgarropy/eslint-config": "0.0.2",
         "babel-eslint": "^10.1.0",
         "eslint": "^7.15.0",
-        "eslint-config-prettier": "^7.0.0",
         "eslint-plugin-svelte3": "^2.7.3",
         "svelte": "^3.31.0"
     },
     "devDependencies": {
-        "@bradgarropy/eslint-config": "0.0.2",
         "babel-eslint": "^10.1.0",
         "eslint": "^7.15.0",
-        "eslint-config-prettier": "^7.0.0",
         "eslint-plugin-svelte3": "^2.7.3",
         "svelte": "^3.31.0"
     }
