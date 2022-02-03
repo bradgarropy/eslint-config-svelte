@@ -17,7 +17,7 @@ module.exports = {
         sourceType: "module",
     },
     plugins: ["svelte3"],
-    parser: "babel-eslint",
+    parser: "@babel/eslint-parser",
     rules: {},
     settings: {},
 }
